@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    background: none;
+}
+body{
+    background:url('images/1000_F_573571179_BFedt3BmJNbz3KTjDBnqh3pC60LC6TRC.jpg')no-repeat;
+    background-size:cover ;
+}
+.clock-body
+{
+width:300px;
+height:300px;
+box-shadow: 11px 2px 23px #000;
+border: 5px solid white;
+margin: 30px 0 0 70px;
+display: inline-block;
+position: relative;
+text-align: center;
+border-radius: 100%;
+background-color: rgb(15, 2, 30);
+}
+.centre{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    position: absolute;
+    top: 142px;
+    left: 142px;
+    z-index: 9;
+    border-radius: 100%;
+}
+.body-hour{
+    
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    
+}
+.body-mint{
+    
+    position: relative;
+    top: -180px;
+    left: 40px;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    
+}
+.body-sec{
+     
+    position: relative;
+    top: -400px;
+    left: 40px;
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+   
+    
+}
+
+.body-hour .hour{
+    width: 4px;
+    height: 80px;
+    margin-top: 15px;
+    background: white;
+    position: absolute;
+    top: 10px;
+    left: 107px;
+    border-radius: 7px 7px 0  0;
+    
+}
+.body-mint .mint{
+    width: 3px;
+    height: 100px;
+    margin-top: 15px;
+    background: white;
+    position: absolute;
+    left: 108px;
+border-radius: 7px 7px 0  0;
+}
+.body-sec .sec{
+    width: 1px;
+    height: 100px;
+    margin-top: 15px;
+    background:white;
+    position: absolute;
+    left: 109px;
+    border-radius: 5px 5px 0  0;
+}
+.num-1,.num-2,.num-3,.num-4,.num-5,.num-6,.num-7,.num-8,.num-9,.num-10,.num-11,.num-12{
+    font-size: 24px;
+    font-weight: bold;
+    color: aqua;
+    position: absolute;
+
+}
+.num-12 {
+    top: 10px;
+    left: 140px;
+}
+.num-1{
+    top: 30px;
+    right: 85px;
+}
+.num-2{
+    top: 80px;
+    right: 48px
+}
+.num-3{
+    top: 135px;
+    right: 25px;
+}
+.num-4{
+    top: 190px;
+    right: 48px;
+}
+.num-5{
+    top: 238px;
+    right: 85px;
+}
+.num-6{
+    bottom: 10px;
+    left: 145px;
+}
+.num-7{
+    top: 238px;
+    left: 85px;
+}
+.num-8{
+    top: 190px;
+    left: 48px;
+}
+.num-9{
+    top: 135px;
+    left: 25px;
+}
+.num-10{
+    top: 82px;
+    left: 42px;
+}
+.num-11{
+    top: 32px;
+    left: 81px;
+}
